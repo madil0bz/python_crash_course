@@ -2,8 +2,11 @@
 dinner_guests = ['Bubba', 'Mumma', 'Great Grandma']
 print(f'You are invited to dinner {dinner_guests[0]}, {dinner_guests[1]}, and {dinner_guests[2]}!')
 
+#use len to show how many people you are inviting to dinner
+print('\nNumber of people on the list:', len(dinner_guests))
+
 #remove and insert a new dinner guest
-print(f'unfortunately {dinner_guests[2]} cannot make it!')
+print(f'\nunfortunately {dinner_guests[2]} cannot make it!')
 del dinner_guests[2]
 dinner_guests.insert(2, 'Aunty Sara')
 print(f'You are invited to dinner {dinner_guests[0]}, {dinner_guests[1]}, and {dinner_guests[2]}!')
@@ -22,6 +25,8 @@ dinner_guests.pop()
 dinner_guests.pop()
 dinner_guests.pop()
 print('Mitch and Bubba you are still invited to dinner!')
+
+
 
 del dinner_guests[0]
 del dinner_guests[0]
